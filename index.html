@@ -6,9 +6,13 @@
         <div class="container">
             <h1>Passenger Counter</h1>
             <h2 id="count-el">0</h2>
-            <button id="increment-btn" onclick="increment()">COUNT</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
+            <div class="buttons">
+                <button id="increment-btn" onclick="increment()">COUNT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+                <button id="clear-btn" onclick="clean()">CLEAR</button>
+            </div>
             <p id="save-el">Previous entries: </p>
+            <p id="sum-el">Sum:</p>
         </div>
         <script src="index.js">
             
