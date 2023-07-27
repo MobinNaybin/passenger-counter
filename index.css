@@ -38,13 +38,21 @@ button {
 
 #increment-btn {
     background: #2C2891;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
 }
 
 #save-btn {
     background: #1C7947;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
 }
-
-#save-el {
+#clear-btn {
+    background-color: rgb(209, 52, 52);
+}
+#save-el, #sum-el {
     font-weight: bold;
 }
 
